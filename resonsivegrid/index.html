@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(56, 55, 55);
+        }
+        .flex-contrainer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            background: rgb(70, 180, 240);
+            border: 2px gray solid;
+            padding: 21px 26px 32px 40px;
+          margin-top: 30vh;
+        }
+        .name{
+            flex: 1 0 140px;
+            height: 30px;
+            border-radius: 22px;
+            padding: 5px;
+        
+
+        }
+        .email{
+         flex:  1 0 120px;
+         height: 30px;
+         border-radius: 22px;
+         padding: 5px;
+     
+        }
+        button{
+            flex: 1 0 60px;
+            background: #a10808;
+            color: white;
+            border-radius: 31px;
+            font-weight: 600;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-contrainer">
+        <input type="text" class="name" placeholder="Username">
+        <input type="text"class="email" placeholder="Password">
+        <button>Submit</button>
+    </div>
+</body>
+</html>
